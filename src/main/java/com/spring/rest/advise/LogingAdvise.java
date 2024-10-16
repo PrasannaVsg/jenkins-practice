@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class LogingAdvise {
 	
 	@Pointcut()
-	
 	public void methodStarts() {
 		
 	}
